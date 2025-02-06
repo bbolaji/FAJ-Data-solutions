@@ -5,50 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAJ Data Solutions</title>
     <link rel="stylesheet" href="styles.css">
-    <script defer src="script.js"></script>
 </head>
 <body>
-    <header>
-    <div class="logo">
-        <img src="logo.png" alt="FAJ Data Solutions Logo">
+    <!-- Top Bar with Contact Info -->
+    <div class="top-bar">
+        <div class="container">
+            <p>Email: info@fajdatasolutions.com | Contact: +44 1234 567 890</p>
+        </div>
     </div>
-    <h1>FAJ Data Solutions</h1>
-    <nav>
-        <ul id="nav-menu">
-            <li><a href="#services">Services</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</header> 
+
+    <!-- Header with Logo and Navigation -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="logo.png" alt="FAJ Data Solutions Logo">
+            </div>
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#become-customer" class="btn-primary">Become a Customer</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
     <section class="hero">
         <div class="container">
-            <h2>Unlock the Power of Data for Your Business</h2>
-            <p>Helping SMEs in the UK make data-driven decisions.</p>
-            <a href="#contact" class="btn">Get Started</a>
+            <h1>Data-Driven Solutions for Your Business Growth</h1>
+            <p>Helping SMEs in the UK make informed decisions with analytics and business intelligence.</p>
+            <a href="#services" class="btn-secondary">Explore Services</a>
         </div>
     </section>
-    
+
+    <!-- Services Section -->
     <section id="services" class="services">
         <div class="container">
             <h2>Our Services</h2>
             <div class="service-list">
-                <div class="service">
-                    <h3>Business Intelligence</h3>
-                    <p>Analyze business plans, product offerings, and competitors.</p>
+                <div class="service-item">
+                    <h3>Business Intelligence Pack</h3>
+                    <p>We analyze your business plan, product offerings, and competitors to provide strategic insights.</p>
                 </div>
-                <div class="service">
-                    <h3>Data Analytics</h3>
-                    <p>Access well-structured, cleaned data for informed decisions.</p>
+                <div class="service-item">
+                    <h3>Data Analytics Pack</h3>
+                    <p>Get access to well-cleaned data and insights for better decision-making.</p>
                 </div>
-                <div class="service">
-                    <h3>Digital Marketing</h3>
-                    <p>Enhance seemless online visibility across all digital touchpoints.</p>
+                <div class="service-item">
+                    <h3>Digital Marketing Pack</h3>
+                    <p>Seamless digital visibility across all touchpoints to enhance your brand presence.</p>
                 </div>
+            </div>
+            <!-- Image representing the range of services -->
+            <div class="services-image">
+                <img src="services_overview.png" alt="Overview of FAJ Data Solutions Services">
             </div>
         </div>
     </section>
-    
+
+    <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
             <h2>Contact Us</h2>
@@ -56,15 +73,11 @@
                 <input type="text" id="name" placeholder="Your Name" required>
                 <input type="email" id="email" placeholder="Your Email" required>
                 <textarea id="message" placeholder="Your Message" required></textarea>
-                <button type="submit">Send Message</button>
+                <button type="submit" class="btn-primary">Send Message</button>
             </form>
         </div>
     </section>
-    
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 FAJ Data Solutions. All rights reserved.</p>
-        </div>
-    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
