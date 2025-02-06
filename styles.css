@@ -27,7 +27,11 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-
+.logo img {
+    height: 50px; /* Adjust size as needed */
+    width: auto;
+    margin-left: 20px;
+}
 header h1 {
     color: #fff;
     margin-left: 20px;
